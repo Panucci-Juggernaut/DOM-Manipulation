@@ -159,8 +159,17 @@ h1, h2{
     }
 }
 @media screen and (max-width:471px){
-#book-list, #add-book, #tabbed-content{
-    margin: 2px;
-}
-
+    #book-list, #tabbed-content{
+        margin: 2px;
+    }
+    #add-book{
+        width: 300px;
+        margin: 0 auto;
+    }
+    #add-book input{
+        width: 230px;
+    }
+    #add-book button{
+        width: 70px;
+    }
 }
