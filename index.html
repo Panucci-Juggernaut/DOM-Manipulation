@@ -1,0 +1,63 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Manipulation</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="wrapper">
+	    <header>
+	    	<div id="page-banner">
+	    		<h1 class="title">Libri d'oro</h1>
+				<p>Books for Physicists</p>
+				<form id="search-books">
+					<input type="text" placeholder="Search books..." />
+				</form>
+	    	</div>
+	    </header>
+	    <div id="book-list">
+	    	<h2 class="title">Books to Read</h2>
+	    	<ul>
+	    		<li>
+	    			<span class="name">Dawn of motion</span>
+	    			<span class="delete">Delete</span>
+	    		</li>
+	    		<li>
+	    			<span class="name">The apocalypse - quantum materials</span>
+	    			<span class="delete">Delete</span>
+	    		</li>
+	    		<li>
+	    			<span class="name">Relativity and it's genesis</span>
+	    			<span class="delete">Delete</span>
+	    		</li>
+	    		<li>
+	    			<span class="name">Physics and man</span>
+	    			<span class="delete">Delete</span>
+	    		</li>
+	    	</ul>
+	    </div>
+	    <form id="add-book">
+			<input type="checkbox" id="hide" />
+			<label for="hide">Hide all books</label>
+			<input type="text" placeholder="Add a book..." />
+			<button>Add</button>
+		</form>
+		<div id="tabbed-content">
+			<ul class="tabs">
+				<li data-target="#about" class="active">About</li>
+				<li data-target="#contact">Contact</li>
+			</ul>
+			<div class="panel active" id="about">
+				<p>about</p>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita soluta voluptate ad incidunt. Quod voluptas doloribus voluptatem temporibus. Odio, aspernatur sed? Veniam atque placeat officia hic ipsa provident mollitia inventore dicta. Optio, aliquam vel dolorum maiores praesentium, nulla, cupiditate sint esse id quaerat necessitatibus porro. Aut iusto quaerat deserunt accusantium ipsa? Fuga voluptas officia earum blanditiis quod facere ea repellendus quos assumenda eligendi sapiente eius saepe, similique ratione nesciunt aperiam?</p>
+			</div>
+			<div class="panel" id="contact">
+				<p>contact</p>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, quam. Repellendus sunt fugit quisquam distinctio explicabo repudiandae corrupti error consectetur doloremque dolorem, facilis, voluptatem reiciendis incidunt deserunt consequatur numquam repellat totam laborum debitis necessitatibus voluptates quae libero. Tempora, iusto dolorem!</p>
+			</div>
+		</div>
+	</div> 
+</body>
+</html>
