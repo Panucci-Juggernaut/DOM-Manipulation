@@ -4,7 +4,11 @@ body{
     letter-spacing: 1px;
 }
 
-h1, h2{
+h1,header p{
+    font-weight: normal;
+    color: #fff
+}
+h2{
     font-weight: normal;
 }
 
@@ -144,6 +148,12 @@ h1, h2{
 
 #tabbed-content .panel.active{
     display: block;
+}
+#tabbed-content > ul > li.active{
+    color: #fff;
+}
+#tabbed-content > ul > li:nth-child(2){
+    color: #fff;
 }
 @media screen and (max-width:777px){
     body{
